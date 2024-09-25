@@ -12,7 +12,7 @@ object Main {
   val appName: String = "combine-seq-files"
 
   def main(args: Array[String]): Unit = {
-    val conf = new Conf(args)
+    val conf = new Conf(args.to(Seq))
     val inputPath = conf.inputPath().toString
     val updatePath = conf.updatePath().toString
     val outputPath = conf.outputPath().toString
