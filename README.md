@@ -3,7 +3,7 @@
 [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/htrc/Metadata-combine-seq-files?include_prereleases&sort=semver)](https://github.com/htrc/Metadata-combine-seq-files/releases/latest)
 
 # Metadata-combine-seq-files
-This tool can be used to combine sequence files
+This tool can be used to combine/update sequence files
 
 # Build
 `sbt clean stage` - generates the unpacked, runnable application in the `target/universal/stage/` folder.  
